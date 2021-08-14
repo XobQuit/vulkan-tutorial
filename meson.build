@@ -8,4 +8,6 @@ project(
 vulkan_dep = dependency('vulkan')
 glfw_dep = dependency('glfw3', version : '>=3.3.4')
 
+glslc_prog = find_program('glslc')
+
 subdir('src')
