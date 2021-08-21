@@ -1,7 +1,8 @@
 subdir('shaders')
 
 files = [ 
-  'main.cpp',
+  'stb_image.cpp',
+  'main.cpp'
 ]
 
 myexecutable = executable(
